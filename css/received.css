@@ -1,0 +1,32 @@
+input
+{
+
+
+ 
+  	display: block;
+  	border: none;
+  	padding: 10px 0;
+    border-bottom: solid 1px black;
+    &:focus, &:valid {
+    box-shadow: none;
+    outline: none;
+    background-position: 0 0;
+    &::-webkit-input-placeholder {
+      color: black;
+      font-size: 11px;
+      transform: translateY(-20px);
+      visibility: visible !important;
+    }
+	}
+}
+.btn-3 
+{
+  border: none;
+  background: black;
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 8px 24px;
+  margin-left: 25px;
+  margin-bottom: 20%;
+  
+  }
